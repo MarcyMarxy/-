@@ -12,3 +12,4 @@ get-childitem $Directory | Rename-Item -NewName{$_.name -Replace"20220722","2022
 （这个的前提是把Nuendo默认导出命名方式改得简洁了）
 改默认设置点这个笔
 ![这是一个图](https://github.com/MarcyMarxy/-yinbian/blob/main/%E6%97%BA/2022-07-22%2016_50_14-Window.png)
+
