@@ -1,0 +1,23 @@
+一次性出一个工程里的一堆区间
+
+建一堆marker，要长，能包住每一个音频块的头和尾
+
+选中要导出的音频块所在的轨道
+多轨一轨一轨选/都选中
+回0点
+一个一个点marker，
+n（轨道的下一个编辑点）即音频头
+a（切marker头）
+n （轨道的下一个编辑点）即音频尾
+d（切marker尾）
+
+marker都跟音频块一样长了
+***这一步也可以p一个一个音频块，去marker轨道头一个一个点add cycle marker，更可以给add cycle marker加个快捷键，比如P旁边的[
+
+p导出范围，选中所有的音频块/marker
+end导出
+
+export range-cycle markers
+选中1那行，拖到最底下你要的最后一个marker那行，如144，按住shift点那行，就都选上了，然后点小方块，别一个一个点
+如预选曲，mp3，比特率 320采样率44.1
+export audio！
